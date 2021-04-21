@@ -22,7 +22,7 @@ const App = () => {
   ];
 
   return (
-    <div className="App">
+    <form className="App">
       <p><strong>Number Picker</strong></p>
       <NumberPicker
         className="mb-3"
@@ -67,7 +67,7 @@ const App = () => {
         className="mb-3"
         defaultValue={new Date()} includeTime 
       />
-    </div>
+    </form>
   );
 }
 
